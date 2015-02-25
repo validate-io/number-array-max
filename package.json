@@ -26,15 +26,25 @@
     "validate.io",
     "validate",
     "validation",
-    "validator"
+    "validator",
+    "valid",
+    "array",
+    "max",
+    "maximum",
+    "is",
+    "isarray",
+    "number"
   ],
   "bugs": {
     "url": "https://github.com/validate-io/number-array-max/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "validate.io-array": "^1.0.3",
+    "validate.io-number": "^1.0.3"
+  },
   "devDependencies": {
-    "chai": "1.x.x",
-    "mocha": "1.x.x",
+    "chai": "2.x.x",
+    "mocha": "2.x.x",
     "coveralls": "^2.11.1",
     "istanbul": "^0.3.0",
     "jshint": "2.x.x",
